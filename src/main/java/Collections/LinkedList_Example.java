@@ -51,6 +51,7 @@ public class LinkedList_Example {
     void TestRayIsLastItemIntheList(){
         Assertions.assertTrue(students.getLast() == "Ray");
         Assertions.assertTrue(students.contains("Ray"));
+        Assertions.assertTrue(students.getLast().equals("Ray"));
     }
 
     @Test
